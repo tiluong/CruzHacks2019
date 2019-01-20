@@ -19,6 +19,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -76,6 +77,14 @@ public class MainActivity extends AppCompatActivity {
 ////                startActivity(myIntent);
 //            }
 //        });
+
+    //**************** DROP DOWN MENU FOR MENTOR SIGN UP ****************
+        Spinner mentorSpinner = (Spinner) findViewById(R.id.spinner);
+        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(MainActivity.this,
+                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.schools));
+        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        mySpinner.setAdapter(myAdapter);
+
     }
     @Override
     protected void onStart() {
