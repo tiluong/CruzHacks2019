@@ -9,12 +9,13 @@
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:inputType="textPassword"
         android:text="password"
-        tools:layout_editor_absoluteX="100dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        tools:layout_editor_absoluteX="102dp"
         tools:layout_editor_absoluteY="507dp" />
 
     <TextView
@@ -60,6 +61,7 @@
         android:fontFamily="casual"
         android:inputType="textPersonName"
         android:text="username"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="455dp" />
 

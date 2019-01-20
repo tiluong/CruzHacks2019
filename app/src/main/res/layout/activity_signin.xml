@@ -8,6 +8,20 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/mentrtext6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:fontFamily="casual"
+        android:text="Your interests are:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/Grey"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
         android:id="@+id/mentrtext4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,6 +29,7 @@
         android:fontFamily="casual"
         android:text="View Profile"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/bg"
         android:textSize="30sp"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,6 +43,7 @@
         android:fontFamily="casual"
         android:text="Your Messages"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/bg"
         android:textSize="30sp"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +57,7 @@
         android:fontFamily="casual"
         android:text="Dashboard"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/bg"
         android:textSize="30sp"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,9 +66,10 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="19dp"
         android:text="To do: integrate instant messaging app into your messages."
+        android:textColor="@color/bg"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="335dp" />
+        tools:layout_editor_absoluteY="306dp" />
 
 </android.support.constraint.ConstraintLayout>
