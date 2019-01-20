@@ -13,7 +13,7 @@ public class SignIn extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.signin); // display the signin XML we created
+        setContentView(R.layout.activity_signin); // display the signin XML we created
         android.support.v7.app.ActionBar menu = getSupportActionBar();
 
 
