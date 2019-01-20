@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
 //        });
 //    }
 
-    private Button b_signup;
-    private Button b_signin;
+    private Button signinButton;
+    private Button signupButton;
 
 
     @Override
@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
 //----------------
         //submit button
         Button submit = (Button) findViewById(R.id.signupbtn);
+        signinButton = (Button) findViewById(R.id.signinbtn);
+        signupButton = (Button) findViewById(R.id.signupbtn);
 //        inputt = (EditText) findViewById(R.id.input);
 //
 //        submit.setOnClickListener(new View.OnClickListener() {
@@ -79,22 +81,22 @@ public class MainActivity extends AppCompatActivity {
 
 //-----------------
 
-//        signinButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-////                Intent myIntent = new Intent(MainActivity.this);
-////
-////                startActivity(myIntent);
-//            }
-//        });
-//        signupButton.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-////
-////                Intent myIntent = new Intent(MainActivity.this);
-////
-////                startActivity(myIntent);
-//            }
-//        });
+        signinButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(MainActivity.this, SignIn.class);
+
+                startActivity(myIntent);
+            }
+        });
+        signupButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent myIntent = new Intent(MainActivity.this, SignUp.class);
+
+                startActivity(myIntent);
+            }
+        });
 
 
         //**************** Link MENTOR --> SIGN UP MENTOR DROPDOWN ****************
