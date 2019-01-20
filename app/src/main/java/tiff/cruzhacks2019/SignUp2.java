@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class SignUp extends AppCompatActivity {
+public class SignUp2 extends AppCompatActivity {
     // The Sign Up process lets students select their level of education
     // High School, College, Graduate Student.
     // Graduate and college students can be mentors.
@@ -18,7 +18,7 @@ public class SignUp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup);
+        setContentView(R.layout.activity_signup2);
     }
 
 }
