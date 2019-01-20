@@ -28,8 +28,8 @@ public class UsernameButton extends AppCompatActivity {
         mActionBar.setTitle(name);
         setContentView(R.layout.activity_username);
 
-        note1 = (TextView)findViewById(R.id.createText);
-        note2 = (TextView)findViewById(R.id.textView);
+        note1 = (TextView) findViewById(R.id.createText);
+        note2 = (TextView) findViewById(R.id.textView);
 
         nameInput = (EditText) findViewById(R.id.editText);
 
@@ -47,8 +47,9 @@ public class UsernameButton extends AppCompatActivity {
 //                            Toast.LENGTH_SHORT).show();
 //                }
 //                showToast(email);
-               // Intent i = new Intent(UsernameButton.this);
+                // Intent i = new Intent(UsernameButton.this);
 //                startActivity(i);
             }
         });
+    }
 }

@@ -18,27 +18,28 @@ public class PasswordButton extends AppCompatActivity {
     Button submitButton;
     String pw;
 
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        Intent i = getIntent();
-        String name = i.getStringExtra("name");
-        android.support.v7.app.ActionBar mActionBar = getSupportActionBar();
-        mActionBar.setTitle(name);
-        setContentView(R.layout.activity_password;
-
-        note1 = (TextView)findViewById(R.id.passText);
-        note2 = (TextView)findViewById(R.id.textView2);
-
-        passInput = (EditText) findViewById(R.id.passText);
-
-        nextButton = (Button) findViewById(R.id.button);
-        nextButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                pw = passInput.getText().toString();
-                // Intent i = new Intent(PasswordButton.this);
-//                startActivity(i);
-            }
-        });
+//    @Override
+//    protected void onCreate(@Nullable Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        Intent i = getIntent();
+//        String name = i.getStringExtra("name");
+//        android.support.v7.app.ActionBar mActionBar = getSupportActionBar();
+//        mActionBar.setTitle(name);
+//        setContentView(R.layout.activity_password);
+//
+//        note1 = (TextView) findViewById(R.id.passText);
+//        note2 = (TextView) findViewById(R.id.textView2);
+//
+//        //passInput = (EditText)findViewById(R.id.passText);
+//
+//        nextButton = (Button) findViewById(R.id.button);
+//        nextButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                pw = passInput.getText().toString();
+//                // Intent i = new Intent(PasswordButton.this);
+////                startActivity(i);
+//            }
+//        });
+//    }
 }
