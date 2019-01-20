@@ -7,13 +7,23 @@
     android:background="@color/Orange"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="507dp" />
+
     <TextView
         android:id="@+id/createText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:fontFamily="casual"
-        android:text="Create a username!"
+        android:text="Create an account!"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
         android:textColor="@color/Grey"
         android:textSize="30sp"
@@ -44,21 +54,21 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="casual"
         android:inputType="textPersonName"
         android:text="username"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="499dp" />
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="455dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
-        android:text="Next"
+        android:text="Submit"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="572dp" />
 

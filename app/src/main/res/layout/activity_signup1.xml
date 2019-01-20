@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Orange"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/signupbtn5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:backgroundTintMode="src_in"
+        android:fontFamily="casual"
+        android:text="Both"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <Button
+        android:id="@+id/signupbtn2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:backgroundTintMode="src_in"
+        android:fontFamily="casual"
+        android:text="Mentee"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <Button
+        android:id="@+id/signinbtn2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:backgroundTintMode="src_in"
+        android:fontFamily="casual"
+        android:text="Mentor"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <TextView
+        android:id="@+id/mentrtext5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:fontFamily="casual"
+        android:text="I would like to be a ..."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:background="@color/Blue"
+        android:fontFamily="casual"
+        android:text="Graduate School"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:background="@color/Blue"
+        android:fontFamily="casual"
+        android:text="College"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/mentrtext"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_marginStart="124dp"
+        android:fontFamily="casual"
+        android:text="I am in ..."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="36sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:background="@color/Blue"
+        android:fontFamily="casual"
+        android:text="High School"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+</android.support.constraint.ConstraintLayout>

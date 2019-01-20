@@ -44,20 +44,20 @@ public class MainActivity extends AppCompatActivity {
 
 //----------------
         //submit button
-        Button submit = (Button) findViewById(R.id.submit);
-        inputt = (EditText) findViewById(R.id.input);
-
-        submit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                //To edit shared preferences use editor as follows
-//                SharedPreferences.Editor editor = prefs.edit();
-//                editor.putString("key","value");
-//                editor.commit();
-
-                inputText = inputt.getText().toString();
-            }
-        });
+        Button submit = (Button) findViewById(R.id.signupbtn);
+//        inputt = (EditText) findViewById(R.id.input);
+//
+//        submit.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+////                //To edit shared preferences use editor as follows
+////                SharedPreferences.Editor editor = prefs.edit();
+////                editor.putString("key","value");
+////                editor.commit();
+//
+//                inputText = inputt.getText().toString();
+//            }
+//        });
 
 //-----------------
 

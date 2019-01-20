@@ -16,8 +16,10 @@ public class UsernameButton extends AppCompatActivity {
     TextView note1;
     TextView note2;
     EditText nameInput;
-    Button nextButton;
+    EditText pwInput;
+    Button submitButton;
     String user;
+    String pw;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -28,16 +30,17 @@ public class UsernameButton extends AppCompatActivity {
         mActionBar.setTitle(name);
         setContentView(R.layout.activity_username);
 
-        note1 = (TextView)findViewById(R.id.createText);
-        note2 = (TextView)findViewById(R.id.textView);
+        note1 = (TextView) findViewById(R.id.createText);
+        note2 = (TextView) findViewById(R.id.textView);
 
         nameInput = (EditText) findViewById(R.id.editText);
 
-        nextButton = (Button) findViewById(R.id.button);
-        nextButton.setOnClickListener(new View.OnClickListener() {
+        submitButton = (Button) findViewById(R.id.button);
+        submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 user = nameInput.getText().toString();
+                pw = pwInput.getText().toString();
 //                password1 = passInput.getText().toString();
 //                password2 = pass2Input.getText().toString();
 
@@ -47,8 +50,9 @@ public class UsernameButton extends AppCompatActivity {
 //                            Toast.LENGTH_SHORT).show();
 //                }
 //                showToast(email);
-               // Intent i = new Intent(UsernameButton.this);
+                // Intent i = new Intent(UsernameButton.this);
 //                startActivity(i);
             }
         });
+    }
 }

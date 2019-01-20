@@ -7,69 +7,39 @@
     android:background="@color/Orange"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/signupbtn3"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="190dp"
+    <TextView
+        android:id="@+id/mentrtext2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@android:color/holo_blue_light"
-        android:backgroundTintMode="src_in"
+        android:layout_marginStart="16dp"
         android:fontFamily="casual"
-        android:text="Both"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        android:text="Note: you can come back and change this later."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/Grey"
+        android:textSize="18sp"
+        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="390dp" />
-
-    <Button
-        android:id="@+id/signupbtn"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="190dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@android:color/holo_blue_light"
-        android:backgroundTintMode="src_in"
-        android:fontFamily="casual"
-        android:text="Mentee"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="284dp" />
+        tools:layout_editor_absoluteY="108dp" />
 
     <TextView
         android:id="@+id/mentrtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="24dp"
         android:fontFamily="casual"
-        android:text="I would like to be a ..."
+        android:text="What school are you interested in currently?"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
         android:textColor="@color/Grey"
-        android:textSize="30sp"
+        android:textSize="18sp"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="42dp" />
+        tools:layout_editor_absoluteY="55dp" />
 
-    <Button
-        android:id="@+id/signinbtn"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="192dp"
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="395dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@android:color/holo_blue_light"
-        android:backgroundTintMode="src_in"
-        android:fontFamily="casual"
-        android:text="Mentor"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="177dp" />
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="259dp" />
 
 </android.support.constraint.ConstraintLayout>
