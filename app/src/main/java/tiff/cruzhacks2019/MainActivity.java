@@ -1,5 +1,7 @@
 package tiff.cruzhacks2019;
 
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Context;
@@ -14,8 +16,11 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.util.List;
@@ -23,32 +28,70 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     // Home page of the app asks user to Sign In or Sign Up to Menter.
-    Button signinButton;
-    Button signupButton;
+//    Button signinButton;
+//    Button signupButton;
 
+    String inputText;
+    EditText inputt;
+//    SharedPreferences prefs = this.getSharedPreferences(
+//            "tiff.cruzhacks2019", Context.MODE_PRIVATE);
 
-    // Create actions for buttons.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//----------------
+        //submit button
+        Button submit = (Button) findViewById(R.id.submit);
+        inputt = (EditText) findViewById(R.id.input);
 
-        signinButton.setOnClickListener(new View.OnClickListener() {
+        submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent myIntent = new Intent(MainActivity.this);
-//
-//                startActivity(myIntent);
+//                //To edit shared preferences use editor as follows
+//                SharedPreferences.Editor editor = prefs.edit();
+//                editor.putString("key","value");
+//                editor.commit();
+
+                inputText = inputt.getText().toString();
             }
         });
-        signupButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-//
-//                Intent myIntent = new Intent(MainActivity.this);
-//
-//                startActivity(myIntent);
-            }
-        });
+
+//-----------------
+
+//        signinButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+////                Intent myIntent = new Intent(MainActivity.this);
+////
+////                startActivity(myIntent);
+//            }
+//        });
+//        signupButton.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+////
+////                Intent myIntent = new Intent(MainActivity.this);
+////
+////                startActivity(myIntent);
+//            }
+//        });
     }
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+    }
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+
 }
