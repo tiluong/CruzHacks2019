@@ -29,7 +29,9 @@
         android:layout_width="359dp"
         android:layout_height="55dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="casual"
         android:text="What is your major?"
         android:textAlignment="viewStart"
@@ -37,32 +39,39 @@
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintHorizontal_bias="0.777"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="364dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
 
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/common_google_signin_btn_text_light_normal_background"
         android:entries="@drawable/common_google_signin_btn_text_light_normal_background"
         android:popupBackground="@drawable/common_google_signin_btn_icon_dark_focused"
         android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="403dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/mentrtext3"
         android:layout_width="359dp"
         android:layout_height="55dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="casual"
         android:text="What college do you go to?"
         android:textAlignment="viewStart"
@@ -70,16 +79,21 @@
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="164dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237" />
 
     <TextView
         android:id="@+id/mentrtext2"
         android:layout_width="358dp"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="casual"
         android:text="Answer these questions to help us match you with a mentee:"
         android:textAlignment="viewStart"
@@ -88,17 +102,21 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintHorizontal_bias="0.379"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="71dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
 
     <TextView
         android:id="@+id/mentrtext"
         android:layout_width="381dp"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="casual"
         android:text="Thanks for being a mentor!"
         android:textAlignment="center"
@@ -107,24 +125,31 @@
         android:textSize="26sp"
         android:textStyle="bold"
         android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/common_google_signin_btn_text_light_normal_background"
         android:entries="@drawable/common_google_signin_btn_text_light_normal_background"
         android:popupBackground="@drawable/common_google_signin_btn_icon_dark_focused"
         android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="203dp" />
+        app:layout_constraintTop_toTopOf="@+id/mentrtext"
+        app:layout_constraintVertical_bias="0.267" />
 
     <Button
         android:id="@+id/button"
