@@ -6,12 +6,12 @@
     <string name="back4app_client_key">oinKNGY3ch9LOyhEiTiWyMT0pwdOPGebRmR0Xj5t</string>
 
     <string-array name="schools">
-        <item> University of California, Santa Cruz</item>
-        <item> University of California, Davis</item>
+        <item> University of California, Santa Cruz </item>
+        <item> University of California, Davis </item>
         <item> University of California, Berkely</item>
         <item> University of California, Santa Barbara</item>
-        <item> University of California, Riverside</item>
-        <item> University of California, Los Angeles</item>
+        <item> University of California, Riverside </item>
+        <item> University of California, Los Angeles </item>
 
 
 

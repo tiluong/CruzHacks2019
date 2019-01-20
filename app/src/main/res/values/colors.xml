@@ -3,16 +3,16 @@
     <!--<color name="colorPrimary">#1df561</color>-->
     <!--<color name="colorPrimaryDark">#16ba4a</color>-->
     <!--<color name="colorAccent">#FF4081</color>-->
-    <color name="Grey">#6e90b3</color>
+    <color name="Grey">#F3CA3E</color>
     <color name="Purple">#d1afff</color>
-    <color name="Blue">#63ABEF</color>
+    <color name="Blue">#080F28</color>
     <color name="Green">#abe9a1</color>
     <color name="Yellow">#ffe138</color>
-    <color name="Orange">#3162AB</color>
+    <color name="Orange">#061034</color>
     <color name="Red">#fd9995</color>
     <color name="bg">#eaeaea</color>
     <color name="white">#ffffff</color>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#F3CA3E</color>
+    <color name="colorPrimaryDark">#F3CA3E</color>
     <color name="colorAccent">#D81B60</color>
 </resources>

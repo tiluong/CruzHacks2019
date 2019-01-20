@@ -22,6 +22,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.util.List;
@@ -37,10 +38,27 @@ public class MainActivity extends AppCompatActivity {
 //    SharedPreferences prefs = this.getSharedPreferences(
 //            "tiff.cruzhacks2019", Context.MODE_PRIVATE);
 
+
+//    public Button but1;
+//    public void init() {
+//        but1 = (Button)findViewById(R.id.signinbtn);
+//        but1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent dropDown = new Intent(this, SignUp2.class);
+//            }
+//        });
+//    }
+
+    private Button b_signup;
+    private Button b_signin;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+       // init();
 
 //----------------
         //submit button
@@ -78,29 +96,47 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
-    //**************** DROP DOWN MENU FOR MENTOR SIGN UP ****************
+
+        //**************** Link MENTOR --> SIGN UP MENTOR DROPDOWN ****************
+//        private Button mentorButton;
+//        mentorButton = (Button)findViewById(R.id.signinbtn);
+//        mentorButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                openDropDownPage();
+//            }
+//        });
+//
+//        public void openDropDownPage(){
+////            Intent intent = new Intent(this, SignUp2.class);
+////            startActivity(intent);
+//        }
+
+
+
+        //**************** DROP DOWN MENU FOR MENTOR SIGN UP ****************
 //        Spinner mentorSpinner = (Spinner) findViewById(R.id.spinner);
 //        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(MainActivity.this,
 //                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.schools));
 //        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//        mySpinner.setAdapter(myAdapter);
+//        mentorSpinner.setAdapter(myAdapter);
 
     }
-    @Override
-    protected void onStart() {
-        super.onStart();
-    }
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-    }
-
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-    }
+//    @Override
+//    protected void onStart() {
+//        super.onStart();
+//    }
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+//
+//    }
+//
+//
+//    @Override
+//    protected void onPause() {
+//        super.onPause();
+//    }
 
 
 }
