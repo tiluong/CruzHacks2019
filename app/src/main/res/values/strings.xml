@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cruzhacks2019</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">5WOiGATk73riaUf7wPl0IoCtU1BDZ2OC4ebC2VSd</string>
+    <string name="back4app_client_key">oinKNGY3ch9LOyhEiTiWyMT0pwdOPGebRmR0Xj5t</string>
 </resources>
