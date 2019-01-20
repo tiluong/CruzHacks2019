@@ -79,11 +79,11 @@ public class MainActivity extends AppCompatActivity {
 //        });
 
     //**************** DROP DOWN MENU FOR MENTOR SIGN UP ****************
-        Spinner mentorSpinner = (Spinner) findViewById(R.id.spinner);
-        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(MainActivity.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.schools));
-        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        mySpinner.setAdapter(myAdapter);
+//        Spinner mentorSpinner = (Spinner) findViewById(R.id.spinner);
+//        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(MainActivity.this,
+//                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.schools));
+//        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//        mySpinner.setAdapter(myAdapter);
 
     }
     @Override
